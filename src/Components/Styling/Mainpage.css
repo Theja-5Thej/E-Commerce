@@ -1,0 +1,395 @@
+
+.main-container{
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    flex-direction: column;
+    background-color: #080808;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 50%;
+}
+.item{
+padding: 10px 0px;
+}
+.item1{
+    width: 50%;
+    display: flex;
+    padding-left: 7%; 
+}
+.head{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    color: rgb(129, 127, 127);
+    width: 100%;  
+    background-color: rgba(60, 58, 58, 0.513);
+}
+.head-2{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 7%; 
+    column-gap: 25px;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    column-gap:10px ;
+}
+.icon{
+    margin-top: 3px;
+    width: 20px;
+    color: rgb(146, 142, 142);
+}
+.main-head-1{
+    display: flex;
+    position: relative;
+    font-family: 'Syne', sans-serif;
+    top: 1.5%;
+    flex-direction: row;
+    padding: 5px ;
+    padding-bottom: 0px;
+    border-bottom: 1px solid white;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+.menu{
+  display: none;
+}
+.shopkart{
+    font-family: 'Syne', sans-serif;
+    font-size: 55px;
+    width: 176px;
+    height: 60px;
+}
+
+.head-1-sub1{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    color: whitesmoke;
+    justify-content: flex-end;
+    font-family: 'Syne', sans-serif;
+    align-items: flex-end;
+    column-gap: 15px;   
+}
+.nav-bar{
+color: whitesmoke;
+position: absolute;
+top:18%;
+display: flex;
+font-size: 15px;
+list-style: none;
+width: 85%;
+justify-content: flex-start;
+align-items: flex-start;
+column-gap: 35px;
+margin-top: 15px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 1;
+    font-family: 'Syne', sans-serif;
+}
+.sub-menu{
+    color: #ca0f0f;
+}
+.submenu{
+   padding: 3px 2px;
+    position: relative;
+    color: rgb(249, 247, 247);
+    background-color: rgba(118, 105, 78, 0.616);
+    font-family: 'Syne', sans-serif;
+    font-weight: 20;
+    max-height: 200px;
+    top:0px;
+    text-align: center;
+    display: none;
+    transition-duration: 50ms;
+}
+.items:hover .submenu{
+   display: flex;
+   row-gap:20px ;
+   justify-content: center;
+    top: 0%;  
+    text-shadow: 0px 0px 0px whitesmoke;
+    pointer-events: auto;
+}
+.items{
+    width: 170px;
+}
+.items:hover{
+    text-shadow: 0.2px 0.2px 3px whitesmoke;
+}
+.pro{
+    width: 150px;
+}
+
+.pro:hover{
+    background-color: rgb(254, 252, 252);
+    color: rgb(11, 11, 11);
+    text-shadow: 0px 0px 0px whitesmoke;
+}
+
+.section-foot{
+    width: 100%;
+    height: 80vh
+    
+}
+#lory{
+    margin-right: 15px;
+    height: 20px;
+    width: 25px;
+}
+.orange{
+    background: rgba(240, 127, 21, 0.852);
+    ;
+    position: absolute;
+    width: 68.3%;
+    height: 325px;
+    top: 290px;
+    left: 447px;
+    opacity: 0.2px;
+    z-index: 0;
+}
+.fresh {
+    position: absolute;
+top: 39.8%;
+left: 6%;
+height: 15%;
+width: 50%;
+border: 1px;
+    z-index: 2;
+    
+}
+
+.btm-line{
+   position: absolute;
+   top: 83%;
+   width:72% ;
+    border-bottom:2px solid white ;
+}
+.logo img{
+    width: 101%;
+    height:98.5%;
+}
+.logo{
+    position: absolute;
+    width:99% ;
+    height: 80%;
+    top: 23%;
+    left: 0%;
+}
+.logo1{
+    display: none;
+}
+.seemore{
+    position: absolute;
+    top: 95%;
+    width: 90px;
+    height: 25px;
+    left: 10%;
+    color: rgb(222, 221, 221);
+     background-color:rgb(0, 0, 0) ;
+}
+
+.Year img{
+    width:80%;
+    height: 100px;
+    border: 2px;
+ 
+}
+.Year{
+    position: absolute;
+    top: 57.5%;
+    width: 50%;
+    left: 23%;
+    border: 1px;
+     z-index: 2;
+
+}
+.fresh img{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    
+}
+.Look{
+    position: absolute;
+    top: 72%;
+    left: 15%;
+    border: 1px;
+     z-index: 2;
+}
+.Look img{
+    width: 527px;
+height: 103px;
+border: 1px;
+
+}
+@keyframes slideDown {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0;
+    }
+}
+@media only screen and (max-width: 390px)
+{
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        overflow-x: hidden;
+        min-height: 50%;
+    }
+    .item1{
+        width: 50%;
+        padding-left: 5%; 
+        font-size: 11px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+    }
+    .shopkart{
+        font-size: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .free,.return,.ver{
+        margin-top: 2px;
+    }
+    #lory{
+        width: 25px;
+        margin-right: 5px;
+    }
+  
+    .head{
+        width: 100%;
+        height: 40px;
+        padding-top: 10px;
+        display: flex;  
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .head-2{
+        display: flex;
+        font-size: 11px;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 1%; 
+        column-gap: 3px;
+    }
+    .follow{
+        display: flex;
+        width: 53%;
+        position: relative;
+        height: 100%;
+        justify-content: flex-start;
+       align-items: center;  
+    }
+    .icon{
+        width: 14px;
+        height: 30px;
+    }
+    #follow-us{
+        display: none;
+    }
+    
+    .head-1-sub1{
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        top: 45%;
+        right: 3%;
+        height: 30px;
+        width: 30px;
+    }
+    .logo img{
+      display: none;
+    }
+    .logo1{
+        display: block;
+        position: absolute;
+        top:18%;
+        width: 100%;
+        height: 100%;
+    }
+    .logo1 img{
+        height: 590px;
+        width: 100%;
+    }
+    
+    .fresh{
+        position: absolute;
+        top: 53%;
+        width: 250px;
+        height: 50px;
+    }
+    .Year{
+        position:absolute;
+        top: 60%;
+        width: 250px;
+    }
+    .Year img{
+        height: 40px;
+      box-sizing: 0.5px 0.5px 5px white;
+    }
+    .Look{
+        position:absolute;
+        top: 65%;
+    }
+    .Look img{
+        height: 40px;
+        width: 250px;
+    }
+    .seemore{
+        position: absolute;
+        top: 85%;
+    }
+    .nav-bar{ 
+        display: none;
+        transition-duration: 0.5s;
+    }
+    .active{
+       color: #fdf9f9;
+       margin-top: -15px;
+       padding-top: 85px;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       row-gap: 10%;
+       align-items: center;
+       background-color: #080808;
+       height: 63%;
+       width: 89.5%;
+       z-index: 5;
+    }
+    .active.items{
+        font-weight: 1500;   
+    }
+    .submenu{
+        background-color: rgba(67, 65, 65, 0.486);
+        width: 100%;
+        border: 1px solid black;
+        color: #ebdcdc;
+    }
+     li{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }  
+   
+}
