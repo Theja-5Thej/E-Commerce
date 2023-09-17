@@ -240,7 +240,7 @@ border: 1px;
         top: 0;
     }
 }
-@media only screen and (max-width: 390px)
+@media only screen and (max-width: 400px)
 {
     .main-container{
         display: flex;
