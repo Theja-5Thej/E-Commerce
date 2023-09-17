@@ -364,7 +364,7 @@ border: 1px;
     }
     .active{
        color: #fdf9f9;
-       margin-top: -15px;
+       margin-top: -1px;
        padding-top: 85px;
        display: flex;
        flex-direction: column;
@@ -372,18 +372,20 @@ border: 1px;
        row-gap: 10%;
        align-items: center;
        background-color: #080808;
-       height: 63%;
-       width: 89.5%;
+       height: 64%;
+       width: 90%;
        z-index: 5;
     }
     .active.items{
-        font-weight: 1500;   
+        font-weight: 1500;  
+        margin-right: 30px;
     }
     .submenu{
         background-color: rgba(67, 65, 65, 0.486);
         width: 100%;
         border: 1px solid black;
         color: #ebdcdc;
+        margin-right: 30px; 
     }
      li{
         width: 100%;
